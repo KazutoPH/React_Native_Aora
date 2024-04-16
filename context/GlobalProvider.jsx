@@ -29,8 +29,8 @@ const GlobalProvider = ({ children }) => {
         setIsLoading(false);
       });
 
-    console.log("current user:", user);
-    console.log(isLoading);
+    // console.log("current user:", user);
+    // console.log(isLoading);
   }, []);
 
   return (

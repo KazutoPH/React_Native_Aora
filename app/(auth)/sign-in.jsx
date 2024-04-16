@@ -31,7 +31,7 @@ const SignIn = () => {
 
       const result = await getCurrentUser();
 
-      Alert.alert("Sucess", "User signed in successfully");
+      // Alert.alert("Sucess", "User signed in successfully");
       setUser(result);
       setIsLoggedIn(true);
 
